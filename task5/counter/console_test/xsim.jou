@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Sep 12 12:36:21 2026
+# Process ID         : 90561
+# Current directory  : /home/dmas/robot_dreams/robot-dreams-code-fpga/task5/counter/console_test
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_sim/xsim_script.tcl}
+# Log file           : /home/dmas/robot_dreams/robot-dreams-code-fpga/task5/counter/console_test/xsim.log
+# Journal file       : /home/dmas/robot_dreams/robot-dreams-code-fpga/task5/counter/console_test/xsim.jou
+# Running On         : dmas-pc
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 8940HX with Radeon Graphics
+# CPU Frequency      : 5014.922 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 32897 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41487 MB
+# Available Virtual  : 21557 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_sim/xsim_script.tcl
+run -all
