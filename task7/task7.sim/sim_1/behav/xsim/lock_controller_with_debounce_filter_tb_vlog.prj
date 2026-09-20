@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../Xilinx/vivado_2025_2/2025.2/data/rsb/busdef" \
+"../../../../task7.srcs/sources_1/new/debounce_filter.v" \
+"../../../../task7.srcs/sources_1/new/lock_controller_with_debounce_filter_top.v" \
+"../../../../task7.srcs/sim_1/new/lock_controller_with_debounce_filter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

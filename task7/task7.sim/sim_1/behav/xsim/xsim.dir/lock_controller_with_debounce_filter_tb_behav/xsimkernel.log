@@ -1,0 +1,7 @@
+Running: xsim.dir/lock_controller_with_debounce_filter_tb_behav/xsimk -simmode gui -wdb lock_controller_with_debounce_filter_tb_behav.wdb -simrunnum 0 -socket 59675
+Design successfully loaded
+Design Loading Memory Usage: 199172 KB (Peak: 199172 KB)
+Design Loading CPU Usage: 630 ms
+Simulation completed
+Simulation Memory Usage: 281168 KB (Peak: 338440 KB)
+Simulation CPU Usage: 640 ms
