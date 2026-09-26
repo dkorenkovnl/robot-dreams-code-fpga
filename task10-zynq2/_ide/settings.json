@@ -1,5 +1,0 @@
-{
-    "clangd.fallbackFlags": [],
-    "vitis.build.application –PlatformBuildDependency": "always",
-    "vs-arduino-cortex-debug.showRTOS": false
-}
