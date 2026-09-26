@@ -26,3 +26,6 @@ _ide/
 *.cache/
 *.runs/
 *.sim/
+
+# Ninja build logs
+.ninja_log
