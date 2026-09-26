@@ -1,0 +1,17 @@
+# ninja log v5
+1	289	0	CMakeFiles/intc_example	cd98c570c02ad7f5
+1	289	0	xintc_exlist.yaml	cd98c570c02ad7f5
+1	289	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example	cd98c570c02ad7f5
+1	289	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xintc_exlist.yaml	cd98c570c02ad7f5
+1	290	0	CMakeFiles/tmrctr_example	29e0299e8872246
+1	290	0	xtmrctr_exlist.yaml	29e0299e8872246
+1	290	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/tmrctr_example	29e0299e8872246
+1	290	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xtmrctr_exlist.yaml	29e0299e8872246
+1	291	0	CMakeFiles/bram_example	b2d6f17a8b0bf38a
+1	291	0	xbram_exlist.yaml	b2d6f17a8b0bf38a
+1	291	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example	b2d6f17a8b0bf38a
+1	291	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xbram_exlist.yaml	b2d6f17a8b0bf38a
+1	293	0	CMakeFiles/gpio_example	22289d5ec85ad781
+1	293	0	xgpio_exlist.yaml	22289d5ec85ad781
+1	293	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example	22289d5ec85ad781
+1	293	0	/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xgpio_exlist.yaml	22289d5ec85ad781

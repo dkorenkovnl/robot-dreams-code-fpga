@@ -1,0 +1,6 @@
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/gpio_example.dir
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/tmrctr_example.dir
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example.dir
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example.dir
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/edit_cache.dir
+/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-microblaze/platform2/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/rebuild_cache.dir

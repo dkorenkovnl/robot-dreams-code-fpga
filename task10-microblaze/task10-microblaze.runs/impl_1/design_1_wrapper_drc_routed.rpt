@@ -1,0 +1,62 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Sat Sep 26 19:02:00 2026
+| Host         : dmas-pc running 64-bit Ubuntu 24.04.4 LTS
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 2
++-----------+----------+--------------------+--------+
+| Rule      | Severity | Description        | Checks |
++-----------+----------+--------------------+--------+
+| RTSTAT-10 | Warning  | No routable loads  | 1      |
+| ZPS7-1    | Warning  | PS7 block required | 1      |
++-----------+----------+--------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+RTSTAT-10#1 Warning
+No routable loads  
+30 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/microblaze_0_axi_periph/inst/m01_nodes/m01_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m01_nodes/m01_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m01_nodes/m01_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m02_nodes/m02_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m02_nodes/m02_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m03_nodes/m03_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m03_nodes/m03_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m03_nodes/m03_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m04_nodes/m04_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m04_nodes/m04_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/m04_nodes/m04_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/s00_nodes/s00_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/microblaze_0_axi_periph/inst/s00_nodes/s00_w_node/inst/mi_handler_m_sc_areset_pipe
+ (the first 15 of 30 listed nets/buses).
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

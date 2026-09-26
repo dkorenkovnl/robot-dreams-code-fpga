@@ -1,0 +1,18 @@
+axi_btns:
+- axi_gpio
+- gpio
+axi_leds:
+- axi_gpio
+- gpio
+axi_sws:
+- axi_gpio
+- gpio
+axi_timer_0:
+- axi_timer
+- tmrctr
+microblaze_0_axi_intc:
+- axi_intc
+- intc
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram
