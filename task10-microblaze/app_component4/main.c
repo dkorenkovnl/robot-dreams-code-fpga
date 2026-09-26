@@ -1,51 +1,3 @@
-// #include "xparameters.h"
-// //#include "xil_io.h"
-// #include "xgpio.h"
-
-
-// #define LED_BASEADDR   XPAR_AXI_LEDS_BASEADDR
-// #define BTN_BASEADDR   XPAR_AXI_BTNS_BASEADDR
-// #define SW_BASEADDR    XPAR_AXI_SWS_BASEADDR
-
-// #define LED 0x01  
-// #define LED_CHANNEL 1 
-// #define LED_DELAY     10000000
-
-// XGpio Gpio;
-// int main(void)
-// {
-// 	int Status;
-// 	volatile int Delay;
-
-
-// 	Status = XGpio_Initialize(&Gpio, BTN_BASEADDR);
-
-// 	if (Status != XST_SUCCESS) {
-// 		xil_printf("Gpio Initialization Failed\r\n");
-// 		return XST_FAILURE;
-// 	}
-
-// 	/* Set the direction for all signals as inputs except the LED output */
-// 	XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
-
-// 	/* Loop forever blinking the LED */
-
-// 	while (1) {
-// 		/* Set the LED to High */
-// 		XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
-
-// 		/* Wait a small amount of time so the LED is visible */
-// 		for (Delay = 0; Delay < LED_DELAY; Delay++);
-
-// 		/* Clear the LED bit */
-// 		XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
-
-// 		/* Wait a small amount of time so the LED is visible */
-// 		for (Delay = 0; Delay < LED_DELAY; Delay++);
-// 	}
-
-// }
-
 #include "xparameters.h"
 #include "xstatus.h"
 #include "xil_printf.h"
@@ -274,6 +226,7 @@ int main(void)
     }
 
     u32 btn_value = 0;
+    u32 sw_value = 0;
     u32 previous_buttons = 0;
     application_.LedPosition = LED_POSITION_1;
     application_.LedState = LED_ON;
@@ -285,23 +238,10 @@ int main(void)
         if (CurrentTimerExpired != LastTimerExpired) {
             LastTimerExpired = CurrentTimerExpired;
             
-            //debug
-            //u32 buttons  = Xil_In32(0x41200000U);
-            //u32 switches = Xil_In32(0x41220000U);
-
-            /*
-            PLEASE NOTE!!!
-            
-            for some reasons btn_gpio gives me switch status
-            and sw_gpio button status 
-            I have checked several time the xcd file, block design, memory map 
-            but was not able to identyfy the reson of that
-            */
-            
             //here we are getting 2 bits value
-            btn_value= XGpio_DiscreteRead(&sw_gpio, 1);
+            sw_value= XGpio_DiscreteRead(&sw_gpio, 1);
             
-            switch(btn_value){
+            switch(sw_value){
                 case 0://both switches are off
                     application_.LedShiftDirection = SHIFT_DIRECTION_LEFT;
                 break;
@@ -317,17 +257,16 @@ int main(void)
                 break;
             }
     
-
             // nevertheless we are calling this fucn every 50ms
             // it still return that key is up during several cycles
             // the logic belong prevent that            
-            u32 buttons = XGpio_DiscreteRead(&btn_gpio, 1) & 0x0FU;
-            u32 newly_pressed = buttons & ~previous_buttons;
-            previous_buttons = buttons;
+            btn_value = XGpio_DiscreteRead(&btn_gpio, 1) & 0x0FU;
+            u32 newly_pressed = btn_value & ~previous_buttons;
+            previous_buttons = btn_value;
 
             // Act only when a new press occurs.
             if (newly_pressed != 0U) {
-                switch (buttons) {
+                switch (btn_value) {
                     case 1U:
                         MoveDelayPositionDown(
                             &application_.CurrentDelayPosition);

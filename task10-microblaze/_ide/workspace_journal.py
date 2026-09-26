@@ -28,3 +28,15 @@ client.delete_component(name="app_component")
 
 client.delete_component(name="componentName")
 
+status = platform.build()
+
+comp.build()
+
+status = platform.build()
+
+comp.build()
+
+status = platform.build()
+
+comp.build()
+
