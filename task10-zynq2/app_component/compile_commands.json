@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/app_component/build",
+  "command": "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -I/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/app_component/src -isystem /home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -I/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/app_component.elf.dir/main.c.obj -c /home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/app_component/src/main.c",
+  "file": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/app_component/src/main.c"
+}
+]

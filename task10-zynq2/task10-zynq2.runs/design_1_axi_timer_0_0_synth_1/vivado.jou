@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Sep 25 13:16:13 2026
+# Process ID         : 236053
+# Current directory  : /home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/task10-zynq2.runs/design_1_axi_timer_0_0_synth_1
+# Command line       : vivado -log design_1_axi_timer_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_timer_0_0.tcl
+# Log file           : /home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/task10-zynq2.runs/design_1_axi_timer_0_0_synth_1/design_1_axi_timer_0_0.vds
+# Journal file       : /home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/task10-zynq2.runs/design_1_axi_timer_0_0_synth_1/vivado.jou
+# Running On         : dmas-pc
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 8940HX with Radeon Graphics
+# CPU Frequency      : 4955.639 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 32897 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41487 MB
+# Available Virtual  : 19540 MB
+#-----------------------------------------------------------
+source design_1_axi_timer_0_0.tcl -notrace
