@@ -1,23 +1,28 @@
-# Ignore build output directory
-/build
-/export
+# Build output directories at any depth
+build/
+export/
 
-# Ignore object files and dependent files
-.o
-.d
+# Object and dependency files
+*.o
+*.d
 
-#Ignore logs folder and log files
-/logs
-.log
+# Logs and lock files
+logs/
+*.log
+*.lock
 
-#Ignore lock files
-.lock
+# Generated binaries
+*.bin
+*.pdi
 
-.bin
-.pdi
+# Vitis workspace metadata
 .vitisWorkspace.json
+_ide/
 
+# clangd caches
+.cache/
 
 # Vivado generated directories
 *.cache/
 *.runs/
+*.sim/
