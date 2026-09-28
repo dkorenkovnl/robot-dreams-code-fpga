@@ -49,3 +49,6 @@ CMakeFiles/
 # Vitis Lopper generated files
 .rigel_lopper/
 
+# Vivado waveform configurations
+*.wcfg
+
