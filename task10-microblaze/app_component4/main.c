@@ -18,8 +18,18 @@
 
 #define TIMER_CHANNEL_0   0U
 
-#define TIMER_CLOCK_HZ 50000000U
-#define TIMER_TICK (0.050)                
+
+
+// uncomment it for real hardware
+//#define REAL_HARDWARE
+
+#ifdef REAL_HARDWARE
+    #define TIMER_TICK (0.050)     /* 50 ms */
+    #define TIMER_CLOCK_HZ 50000000U
+#else
+    #define TIMER_TICK (0.000010)  /* 10 us */
+    #define TIMER_CLOCK_HZ 100000000U
+#endif         
 #define RESET_VALUE    (TIMER_CLOCK_HZ*TIMER_TICK - 2U)  /* 2_499_998U */
 
 #define SHIFT_DIRECTION_LEFT (0)
@@ -43,7 +53,15 @@
 // this array contains possible delays for the software timer 
 // the field CurrentDelayPosition of the LedApp structure keeps 
 // possition of the delay that we are currently using
-u32 PossibleDelays[] = {2/*100ms*/, 5/*250ms*/, 10/*500ms*/, 15 /*750ms*/, 20/*1000ms*/, 30/*1500ms*/, 40/*2000ms*/};
+
+
+#ifdef REAL_HARDWARE
+    #define DEFAUL_DELAY_POSIOTION (4) //20/*1000ms*/
+    u32 PossibleDelays[] = {2/*100 ms*/, 5/*250 ms*/, 10/*500 ms*/, 15 /*750 ms*/, 20/*1000 ms*/, 30/*1500 ms*/, 40/*2000 ms*/};
+#else
+    #define DEFAUL_DELAY_POSIOTION (0) //1/*10 us*/
+    u32 PossibleDelays[] = {1/*10 us*/, 2/*20 us*/, 3/*30 us*/, 4 /*40 us*/, 5/*50 us*/, 6/*60 us*/, 7/*70 us*/};
+#endif   
 
 const u32 DelaysSize = sizeof(PossibleDelays)/sizeof(u32);
 
@@ -207,7 +225,7 @@ int main(void)
 
     int InitStatus;
     u32 LastTimerExpired = 0U;
-    application_.CurrentDelayPosition = 4;//20/*1000ms*/
+    application_.CurrentDelayPosition = DEFAUL_DELAY_POSIOTION;
     application_.TickCounter = 0;
     application_.ShiftStatus = SHIFT_DIRECTION_STATUS_RUNNING;
 
@@ -270,11 +288,13 @@ int main(void)
                     case 1U:
                         MoveDelayPositionDown(
                             &application_.CurrentDelayPosition);
+                            application_.TickCounter = 0;
                         break;
 
                     case 2U:
                         MoveDelayPositionUp(
                             &application_.CurrentDelayPosition);
+                            application_.TickCounter = 0;
                         break;
 
                     case 4U:
@@ -296,7 +316,7 @@ int main(void)
             // here is the impl of the software timer
             application_.TickCounter++;
             u32 CurrentDalay = PossibleDelays[application_.CurrentDelayPosition];
-            if(application_.TickCounter > CurrentDalay) {
+            if(application_.TickCounter == CurrentDalay) {
                 // new strobe for indication
                 application_.TickCounter = 0;
     
