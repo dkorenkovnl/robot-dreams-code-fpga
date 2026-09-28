@@ -29,3 +29,23 @@ _ide/
 
 # Ninja build logs
 .ninja_log
+
+# Ninja build state
+.ninja_deps
+
+# CMake generated files
+CMakeFiles/
+
+# Vivado generated sources and IP output
+*.gen/
+*.ip_user_files/
+
+# Xilinx temporary working directories
+.Xil/
+
+# Generated BSP metadata
+**/bsp/libsrc/build_configs/exmetadata/
+
+# Vitis Lopper generated files
+.rigel_lopper/
+

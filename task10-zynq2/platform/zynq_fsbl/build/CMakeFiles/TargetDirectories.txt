@@ -1,4 +1,0 @@
-/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
-/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-/home/dmas/robot_dreams/robot-dreams-code-fpga/task10-zynq2/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
