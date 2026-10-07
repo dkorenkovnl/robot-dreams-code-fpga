@@ -106,3 +106,5 @@ build-vivado/
 _ide/logs
 _ide/.wsdata
 
+.vscode/
+

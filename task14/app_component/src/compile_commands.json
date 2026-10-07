@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task14/app_component/build",
+  "command": "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/gnu/microblaze/lin/bin/mb-gcc -I/home/dmas/robot_dreams/robot-dreams-code-fpga/task14/app_component/src -isystem /home/dmas/robot_dreams/robot-dreams-code-fpga/task14/platform/export/platform/sw/standalone_microblaze_0/include -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/gnu/microblaze/lin/x86_64-oesdk-linux/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include-fixed -isystem /home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/gnu/microblaze/lin/microblazeeb-xilinx-elf/usr/include   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=/home/dmas/robot_dreams/robot-dreams-code-fpga/task14/platform/export/platform/sw/standalone_microblaze_0/Xilinx.spec -I/home/dmas/robot_dreams/robot-dreams-code-fpga/task14/platform/export/platform/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/app_component.elf.dir/main.c.obj -c /home/dmas/robot_dreams/robot-dreams-code-fpga/task14/app_component/src/main.c",
+  "file": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task14/app_component/src/main.c"
+}
+]
