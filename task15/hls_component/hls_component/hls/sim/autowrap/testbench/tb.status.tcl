@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_component/hls/./sim/autowrap/testbench/moving_max.cpp_pre.cpp.tb.cpp

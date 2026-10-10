@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_component/hls_component.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Oct  8 21:07:32 2026",
+ "timestampMillis": "1791486452624",
+ "buildStep": {
+  "cmdId": "0959c250-a05c-4305-a954-62bc33239165",
+  "name": "vitis-run",
+  "logFile": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_component/logs/hls_component.steps.log",
+  "commandLine": "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_config.cfg --work_dir hls_component ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_config.cfg",
+   "--work_dir",
+   "hls_component"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct  8 21:07:32 2026",
+ "timestampMillis": "1791486452624",
+ "status": {
+  "cmdId": "0959c250-a05c-4305-a954-62bc33239165",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454467",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/moving_max.cpp",
+     "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454468",
+ "buildStep": {
+  "cmdId": "68877143-c6cf-44ce-9ac0-ca30dc2f1aa0",
+  "name": "",
+  "logFile": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component/hls_component/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/dmas/robot_dreams/robot-dreams-code-fpga/task15/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454468",
+ "status": {
+  "cmdId": "68877143-c6cf-44ce-9ac0-ca30dc2f1aa0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454728",
+ "status": {
+  "cmdId": "68877143-c6cf-44ce-9ac0-ca30dc2f1aa0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454800",
+ "status": {
+  "cmdId": "0959c250-a05c-4305-a954-62bc33239165",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454801",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Oct  8 21:07:34 2026",
+ "timestampMillis": "1791486454801",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
