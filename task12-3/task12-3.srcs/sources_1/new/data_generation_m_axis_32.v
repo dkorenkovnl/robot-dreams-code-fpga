@@ -2,18 +2,14 @@
 
 `default_nettype none
 
+// VER 1 (current one)
 // Single-clock AXI4-Stream test source: 60,000 bytes per frame.
 // start must be synchronous to aclk. Pulse it for one cycle while !busy.
 // aresetn may assert asynchronously; release it synchronously to aclk.
 // Byte pattern: 00, 01, ... FF, 00, ... (low byte transmitted first).
-`timescale 1ns / 1ps
+// since we are generating 32bits the counter LAST_BEAT = 14'd14999
 
-`default_nettype none
-
-// Single-clock AXI4-Stream test source: 60,000 bytes per frame.
-// start must be synchronous to aclk. Pulse it for one cycle while !busy.
-// aresetn may assert asynchronously; release it synchronously to aclk.
-// Byte pattern: 00, 01, ... FF, 00, ... (low byte transmitted first).
+// not used i project right now  
 module data_generation_m_axis_32 (
     input  wire        aclk,
     input  wire        aresetn,
