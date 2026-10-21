@@ -1,0 +1,10 @@
+create libxil.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/intc/src/libintc.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/iic/src/libiic.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/i2stx/src/libi2stx.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/i2srx/src/libi2srx.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/audio_formatter/src/libaudio_formatter.a
+addlib /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/platform8/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/audio_filter_hls/src/libaudio_filter_hls.a
+save
+end

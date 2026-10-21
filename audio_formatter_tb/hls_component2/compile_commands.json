@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2",
+    "arguments": [
+      "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/lnx64/tools/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=audio_filter_hls",
+      "-c",
+      "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.cpp"
+    ],
+    "file": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.cpp"
+  },
+  {
+    "directory": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2",
+    "arguments": [
+      "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/lnx64/tools/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/include",
+      "-c",
+      "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/tb_hls.cpp"
+    ],
+    "file": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/tb_hls.cpp"
+  }
+]

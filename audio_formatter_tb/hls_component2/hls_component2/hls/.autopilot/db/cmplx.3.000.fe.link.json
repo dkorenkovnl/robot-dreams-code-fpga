@@ -1,0 +1,62 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "audio_filter.cpp",
+    "fileloc": 4,
+    "instructions": 36,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 0,
+    "name": "audio_filter_hls",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 309
+  },
+  "1": {
+    "basicblocks": 23,
+    "calls": "3 2",
+    "control_depth": 1,
+    "def_use_depth": 5,
+    "file": "audio_filter_core.hpp",
+    "fileloc": 29,
+    "instructions": 74,
+    "loads": {
+      "L": 2
+    },
+    "memory_accesses": 3,
+    "name": "process",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 98
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 13,
+    "file": "audio_filter_core.hpp",
+    "fileloc": 17,
+    "instructions": 14,
+    "memory_accesses": 0,
+    "name": "parity_bit",
+    "total_instructions": 14
+  },
+  "3": {
+    "basicblocks": 4,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "audio_filter_core.hpp",
+    "fileloc": 10,
+    "instructions": 10,
+    "memory_accesses": 0,
+    "name": "unpack_sample",
+    "total_instructions": 10
+  }
+}

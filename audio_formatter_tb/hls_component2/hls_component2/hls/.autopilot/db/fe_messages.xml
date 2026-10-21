@@ -1,0 +1,60 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="./audio_filter_core.hpp:33:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="./audio_filter_core.hpp:42:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="./audio_filter_core.hpp:46:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=audio_filter_hls" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:8:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=s_axis" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:9:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=m_axis" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:10:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=bypass bundle=control offset=0x20" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:11:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:12:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 style=flp" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:15:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=history complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="audio_filter.cpp:16:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="audio_filter_hls" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=history" ARG_PragmaType="reset" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="audio_filter.cpp:21:19" msg_body="Inlining function 'audio_filter::process(unsigned int, unsigned int, bool, int (*) [7])' into 'audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)'">
+        <args Callee="audio_filter::process(unsigned int, unsigned int, bool, int (*) [7])" Callee-DebugLoc="File ./audio_filter_core.hpp Line 32 Column 0" Caller="audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)" Caller-DebugLoc="File audio_filter.cpp Line 7 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="./audio_filter_core.hpp:45:22" msg_body="Loop 'VITIS_LOOP_45_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_45_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="./audio_filter_core.hpp:41:22" msg_body="Loop 'VITIS_LOOP_41_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="audio_filter.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_45_2' (./audio_filter_core.hpp:45:22) in function 'audio_filter_hls' completely with a factor of 6">
+        <args Factor="6" LoopLoc="./audio_filter_core.hpp:45:22" LoopName="VITIS_LOOP_45_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="audio_filter.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_41_1' (./audio_filter_core.hpp:41:22) in function 'audio_filter_hls' completely with a factor of 7">
+        <args Factor="7" LoopLoc="./audio_filter_core.hpp:41:22" LoopName="VITIS_LOOP_41_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="audio_filter.cpp:7:0" msg_body="Inlining function 'audio_filter::unpack_sample(unsigned int)' into 'audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)'">
+        <args Callee="audio_filter::unpack_sample(unsigned int)" Callee-DebugLoc="File ./audio_filter_core.hpp Line 11 Column 0" Caller="audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)" Caller-DebugLoc="File audio_filter.cpp Line 7 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="audio_filter.cpp:7:0" msg_body="Inlining function 'audio_filter::parity_bit(unsigned int)' into 'audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)'">
+        <args Callee="audio_filter::parity_bit(unsigned int)" Callee-DebugLoc="File ./audio_filter_core.hpp Line 18 Column 0" Caller="audio_filter_hls(hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0ul, 3ul, 0ul, (unsigned char)5, true&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;)" Caller-DebugLoc="File audio_filter.cpp Line 7 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="audio_filter.cpp:14:0" msg_body="Applying array_partition to '_ZZ16audio_filter_hlsRN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm3ELm0ELh5ELb1EEELi0EEES6_S2_ILi1EEE7history': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="_ZZ16audio_filter_hlsRN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm3ELm0ELh5ELb1EEELi0EEES6_S2_ILi1EEE7history"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="audio_filter.cpp:22:50" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+</xilinx:hls_fe_msgs>

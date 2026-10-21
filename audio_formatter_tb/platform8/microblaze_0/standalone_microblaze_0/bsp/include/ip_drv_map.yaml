@@ -1,0 +1,24 @@
+audio_filter_hls_0:
+- audio_filter_hls
+- audio_filter_hls
+audio_formatter_0:
+- audio_formatter
+- audio_formatter
+axi_bram_ctrl_0:
+- axi_bram_ctrl
+- bram
+axi_iic_0:
+- axi_iic
+- iic
+i2s_receiver_0:
+- i2s_receiver
+- i2srx
+i2s_transmitter_0:
+- i2s_transmitter
+- i2stx
+microblaze_0_axi_intc:
+- axi_intc
+- intc
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

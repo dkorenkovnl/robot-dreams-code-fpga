@@ -1,0 +1,158 @@
+<ENTRY>
+{
+ "thisFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls_component2.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sun Oct 18 18:19:56 2026",
+ "timestampMillis": "1792340396938",
+ "buildStep": {
+  "cmdId": "5b754aab-fd70-41a2-80e6-53dbd624e515",
+  "name": "vitis-run",
+  "logFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/logs/hls_component2.steps.log",
+  "commandLine": "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_config.cfg --work_dir hls_component2 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_config.cfg",
+   "--work_dir",
+   "hls_component2"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:56 2026",
+ "timestampMillis": "1792340396938",
+ "status": {
+  "cmdId": "5b754aab-fd70-41a2-80e6-53dbd624e515",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sun Oct 18 18:19:58 2026",
+ "timestampMillis": "1792340398879",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "audio_filter_hls",
+     "file": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/audio_filter_hls.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.cpp",
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.hpp",
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter_core.hpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sun Oct 18 18:19:58 2026",
+ "timestampMillis": "1792340398880",
+ "buildStep": {
+  "cmdId": "9517f12d-82e1-412f-9ea0-9d81e2ad56ea",
+  "name": "",
+  "logFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:58 2026",
+ "timestampMillis": "1792340398880",
+ "status": {
+  "cmdId": "9517f12d-82e1-412f-9ea0-9d81e2ad56ea",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:20:02 2026",
+ "timestampMillis": "1792340402578",
+ "status": {
+  "cmdId": "9517f12d-82e1-412f-9ea0-9d81e2ad56ea",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:20:02 2026",
+ "timestampMillis": "1792340402670",
+ "status": {
+  "cmdId": "5b754aab-fd70-41a2-80e6-53dbd624e515",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 18 18:20:02 2026",
+ "timestampMillis": "1792340402671",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 18 18:20:02 2026",
+ "timestampMillis": "1792340402671",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

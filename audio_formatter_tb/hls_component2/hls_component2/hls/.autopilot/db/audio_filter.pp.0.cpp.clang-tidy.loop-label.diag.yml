@@ -1,0 +1,76 @@
+---
+MainSourceFile:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        '/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          280941
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        '/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          281412
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        '/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          281884
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        '/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          629901
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_41_1:  '
+      FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter_core.hpp'
+      FileOffset:      41
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          2382198
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_41_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_45_2:  '
+      FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter_core.hpp'
+      FileOffset:      45
+      Replacements:
+        - FilePath:        '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/.autopilot/db/audio_filter.pp.0.cpp'
+          Offset:          2382305
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_45_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2'
+...

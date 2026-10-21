@@ -1,0 +1,35 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<3, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="to_uint" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<32>::ap_uint(unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="to_uint" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool operator!=<1, false>(ap_int_base<1, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="./audio_filter_core.hpp" line="33" pragmaType="inline" parentfunction="process" off="0" region="0" recursive="0"/>
+<pragma file="./audio_filter_core.hpp" line="46" pragmaType="unroll" parentfunction="process" factor="-1" skip_exit_check="0"/>
+<pragma file="./audio_filter_core.hpp" line="42" pragmaType="unroll" parentfunction="process" factor="-1" skip_exit_check="0"/>
+<pragma file="audio_filter.cpp" line="12" pragmaType="pipeline" parentfunction="audio_filter_hls" off="0" ii="1" style="flp"/>
+<pragma file="audio_filter.cpp" line="8" pragmaType="interface" parentfunction="audio_filter_hls" mode="axis" port="s_axis" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="audio_filter.cpp" line="9" pragmaType="interface" parentfunction="audio_filter_hls" mode="axis" port="m_axis" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="audio_filter.cpp" line="10" pragmaType="interface" parentfunction="audio_filter_hls" mode="s_axilite" port="bypass" bundle="control" offset="32" name="" clock="" impl="" register="0"/>
+<pragma file="audio_filter.cpp" line="11" pragmaType="interface" parentfunction="audio_filter_hls" mode="s_axilite" port="" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="audio_filter.cpp" line="15" pragmaType="array_partition" parentfunction="audio_filter_hls" dim="0" factor="0" mode="complete" dynamic="0" variable="_ZZ16audio_filter_hlsRN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm3ELm0ELh5ELb1EEELi0EEES6_S2_ILi1EEE7history"/>
+<pragma file="audio_filter.cpp" line="16" pragmaType="reset" parentfunction="audio_filter_hls" off="0" variable="_ZZ16audio_filter_hlsRN3hls6streamINS_4axisI7ap_uintILi32EELm0ELm3ELm0ELh5ELb1EEELi0EEES6_S2_ILi1EEE7history"/>
+<pragma file="Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="530" pragmaType="inline" parentfunction="ssdm_int<32, false>::ssdm_int(unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="530" pragmaType="inline" parentfunction="_ZN8ssdm_intILi3ELb0EEC2EDU3_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<3>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_int_base<1, false>::operator!=<32, true>(ap_int_base<32, true> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="Xilinx/vivado_2025_2/2025.2/Vitis/common/technology/autopilot/etc/ap_common.h" line="522" pragmaType="inline" parentfunction="ssdm_int<32, true>::ssdm_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, false>::ap_int_base(unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+</pragmas>

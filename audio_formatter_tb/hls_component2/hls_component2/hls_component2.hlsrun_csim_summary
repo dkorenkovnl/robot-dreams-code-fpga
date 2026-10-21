@@ -1,0 +1,158 @@
+<ENTRY>
+{
+ "thisFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls_component2.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sun Oct 18 18:19:20 2026",
+ "timestampMillis": "1792340360124",
+ "buildStep": {
+  "cmdId": "1ab0c490-cfc9-4c16-ad16-6c115c0983cb",
+  "name": "vitis-run",
+  "logFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/logs/hls_component2.steps.log",
+  "commandLine": "/home/dmas/Xilinx/vivado_2025_2/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_config.cfg --work_dir hls_component2 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_config.cfg",
+   "--work_dir",
+   "hls_component2"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:20 2026",
+ "timestampMillis": "1792340360125",
+ "status": {
+  "cmdId": "1ab0c490-cfc9-4c16-ad16-6c115c0983cb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sun Oct 18 18:19:21 2026",
+ "timestampMillis": "1792340361997",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "audio_filter_hls",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.cpp",
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter.hpp",
+     "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/audio_filter_core.hpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sun Oct 18 18:19:21 2026",
+ "timestampMillis": "1792340361998",
+ "buildStep": {
+  "cmdId": "97253ee2-0f89-493a-9e19-95300363fa46",
+  "name": "",
+  "logFile": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_component2/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:21 2026",
+ "timestampMillis": "1792340361998",
+ "status": {
+  "cmdId": "97253ee2-0f89-493a-9e19-95300363fa46",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:23 2026",
+ "timestampMillis": "1792340363487",
+ "status": {
+  "cmdId": "97253ee2-0f89-493a-9e19-95300363fa46",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 18 18:19:23 2026",
+ "timestampMillis": "1792340363572",
+ "status": {
+  "cmdId": "1ab0c490-cfc9-4c16-ad16-6c115c0983cb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 18 18:19:23 2026",
+ "timestampMillis": "1792340363573",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 18 18:19:23 2026",
+ "timestampMillis": "1792340363573",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,3 @@
+relativeroot=/home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2
+original_argv=--mode hls --package --config /home/dmas/Xilinx_prev/verilog_2025/audio_formatter_tb/hls_component2/hls_config.cfg --work_dir hls_component2 
+

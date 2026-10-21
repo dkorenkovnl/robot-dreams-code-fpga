@@ -1,0 +1,20 @@
+{
+    "0": {
+        "name": "audio_filter_hls",
+        "file": "audio_filter.cpp",
+        "fileloc": "4",
+        "instructions": "285",
+        "total_instructions": "285",
+        "calls": "",
+        "basicblocks": "13",
+        "memory_accesses": "115",
+        "control_depth": "2",
+        "def_use_depth": "26",
+        "loads": {
+            "G": "56"
+        },
+        "stores": {
+            "G": "56"
+        }
+    }
+}
